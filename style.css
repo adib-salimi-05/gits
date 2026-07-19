@@ -99,3 +99,48 @@ body {
     padding: 0px 12px 4px 24px;
     font-family: inter;
 }
+#scr-spt{
+    font-family: inter;
+    font-size: 56px;
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+}
+#erly-brd{
+    font-family: inter;
+    color: #575757;
+    text-align: center;
+}
+.pay{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: center;
+    gap: 20px;
+}
+.pay-card{
+    background: #f8f9fbFF;
+    border: 1px solid #8d8d8d;
+    border-radius: 10px;
+    padding: 32px;
+    height: 444px;
+    font-family: inter;
+}
+.pay-card-mid{
+    background-color: #0d1b2aFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 32px;
+    height: 444px;
+    font-family: inter;
+}
+.norm-btn{
+    background: #f8f9fbFF;
+    color: #050505;
+    padding: 12px 41.5px 12px 41.5px;
+    border-radius: 10px;
+    font-family: inter;
+    font-weight: 700;
+}
+.btn-btn{
+    text-align: center;
+    margin: 50px;
+}

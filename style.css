@@ -31,7 +31,16 @@ body {
 }
 
 .hero{
-    background-image: url(images/banner.jpg);
+    background-image:
+    linear-gradient(to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.2)
+    ),
+     linear-gradient(to top,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    ),
+    url("images/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,5 +64,38 @@ body {
     margin: 0px 301px 0px 421px;
 }
 .hero-btn{
-    margin: 278px 617px 79px 652px;
+    margin: 278px 617px 230px 652px;
+}
+#mts {
+    font-family: inter;
+    font-size: 56px;
+    text-align: center;
+    margin: 80px;
+}
+.speakers-parent{
+    display: grid;
+    grid-template-columns: 644px 644px;
+    justify-content: center;
+    gap: 20px;
+}
+.atbr{
+    color:#2563ebFF;
+    padding: 12px 12px 0px 24px;
+    font-family: inter;
+    font-weight: 600;
+}
+.speaker-img{
+    border-radius: 10px 10px 0px 0px;
+}
+.speaker{
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+}
+.speaker-name{
+    padding: 0px 12px 4px 24px;
+    font-family: inter;
+}
+.speaker-texts{
+    padding: 0px 12px 4px 24px;
+    font-family: inter;
 }
